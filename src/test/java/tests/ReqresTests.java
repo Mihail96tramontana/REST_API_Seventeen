@@ -46,8 +46,6 @@ public class ReqresTests {
     @Test
     void creatUser() {
 
-        String body = "{ \"name\": \"morpheus\", \"job\": \"zion resident\" }";
-
         given()
                 .log().uri()
                 .log().body()
